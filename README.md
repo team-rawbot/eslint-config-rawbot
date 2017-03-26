@@ -1,4 +1,8 @@
+[![npm version](https://badge.fury.io/js/eslint-config-rawbot.svg)](https://badge.fury.io/js/eslint-config-rawbot)
+[![Build Status](https://travis-ci.org/team-rawbot/eslint-config-rawbot.svg?branch=master)](https://travis-ci.org/team-rawbot/eslint-config-rawbot)
+
 # eslint-config-rawbot
+
 Rawbot EsLint common configuration (i.e. JavaScript styleguide).
 
 ## Usage
