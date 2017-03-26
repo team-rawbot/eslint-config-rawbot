@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-rawbot",
+  "version": "0.1.0",
+  "description": "Rawbot EsLint common configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Liip",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/team-rawbot/eslint-config-rawbot.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
