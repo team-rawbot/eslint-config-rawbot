@@ -86,13 +86,11 @@ module.exports = {
       after: true,
     }],
     'space-before-function-paren': ['error', 'never'],
-    'spaced-comment': ['error', 'always', {
-      exceptions: ['*', '\\', '-'],
-    }],
     'space-infix-ops': 'error',
     'no-whitespace-before-property': 'error',
     'padded-blocks': ['error', 'never'],
     'space-in-parens': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
+    'comma-spacing': ['error', { before: false, after: true }],
   },
 };
