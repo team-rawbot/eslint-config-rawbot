@@ -1,9 +1,13 @@
 module.exports = {
   env: {
     es6: true,
+    browser: true,
   },
   parserOptions: {
     sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
   },
   rules: {
     // Overall styling

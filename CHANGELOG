@@ -1,0 +1,16 @@
+# CHANGELOG
+
+## 0.2.0
+
+* Better style/rules documentation with example
+* Add browser to env by default
+* Enable object rest spread
+
+## 0.1.1
+
+* Add tests
+* Drop spaced-comment rule and add comma-spacing rule
+
+## 0.1.0
+
+Initial release
