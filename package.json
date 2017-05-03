@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rawbot",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Rawbot EsLint common configuration",
   "main": "index.js",
   "scripts": {

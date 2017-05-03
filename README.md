@@ -72,7 +72,9 @@ export default class MyClass {
   }
 
   createPeopleCards() {
-    this.peopleCards = this.people.map(people => `<div class="people">${people.name}</div>`);
+    this.peopleCards = this.people.map(people => {
+      return `<div class="people">${people.name}</div>`
+    });
   }
 
   open(e) {

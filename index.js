@@ -51,7 +51,7 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-arrow-callback': 'error',
     'arrow-parens': ['error', 'as-needed'],
-    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-body-style': ['error', 'always'],
     'no-useless-constructor': 'error',
     'no-duplicate-imports': 'error',
     'dot-notation': 'error',
