@@ -5,7 +5,6 @@
 import module from 'module';
 
 export default class MyClass {
-
   constructor(options) {
     this.people = ['john', 'vanessa', 'gina'];
     this.options = {
@@ -63,5 +62,4 @@ export default class MyClass {
       module.bar();
     }
   }
-
 }

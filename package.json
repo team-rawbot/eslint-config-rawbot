@@ -17,9 +17,9 @@
     "url": "https://github.com/team-rawbot/eslint-config-rawbot.git"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "5"
   },
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^5.4.0"
   }
 }

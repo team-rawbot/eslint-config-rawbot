@@ -23,7 +23,7 @@ If you don’t have an EsLint config yet, you can generate one using `eslint --i
 
 ## Rules and style summarized
 
-* ES2015+
+* ES2018
 * 2 spaces
 * CamelCase
 * Single quotes
@@ -50,7 +50,6 @@ All the rules are defined in [index.js](https://github.com/team-rawbot/eslint-co
 import module from 'module';
 
 export default class MyClass {
-
   constructor(options) {
     this.people = ['john', 'vanessa', 'gina'];
     this.options = {
@@ -108,7 +107,6 @@ export default class MyClass {
       module.bar();
     }
   }
-
 }
 
 ```
