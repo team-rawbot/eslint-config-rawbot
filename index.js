@@ -25,7 +25,7 @@ module.exports = {
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
     semi: ['error', 'always'],
-    'func-style': ['error', 'declaration'],
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'max-params': ['error', 3],
     'max-depth': ['error', 4],
     'no-confusing-arrow': 'error',
