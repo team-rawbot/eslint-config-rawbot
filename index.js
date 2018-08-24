@@ -4,10 +4,8 @@ module.exports = {
     browser: true,
   },
   parserOptions: {
+    ecmaVersion: 9,
     sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
   },
   rules: {
     // Overall styling
