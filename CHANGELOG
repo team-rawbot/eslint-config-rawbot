@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.0
+
+* EsLint 5 is now the lowest version supported
+* Add allowArrowFunctions for func-style, fix #4
+* Remove experimentalObjectRestSpread in favor of ecmaVersion, fix #3
+
 ## 0.3.0
 
 * Enforce curly for `arrow-body-style` to avoid confusing implicit returns
