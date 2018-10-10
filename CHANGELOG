@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.0
+
+* Change `arrow-body-style: always` to `as-needed`, thanks @Seeow
+
 ## 1.0.0
 
 * EsLint 5 is now the lowest version supported
