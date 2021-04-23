@@ -3,7 +3,7 @@
 
 # eslint-config-rawbot
 
-Rawbot EsLint common configuration (i.e. JavaScript styleguide).
+Rawbot EsLint common configuration (i.e. JavaScript styleguide). This preset should be used with Prettier. See [here](https://liip-lausanne.github.io/coding-standards/javascript/#code-styling) for the detailed setup.
 
 ## Usage
 
@@ -21,22 +21,7 @@ Set your EsLint configuration (.eslintrc.json) to use it:
 
 If you don’t have an EsLint config yet, you can generate one using `eslint --init`.
 
-## Rules and style summarized
-
-* ES2018
-* 2 spaces
-* CamelCase
-* Single quotes
-* With semi-colons
-* Don’t group variables declarations
-* Comma at the end of the line, space after only, dangle when multiline
-* Prefer `const` then `let`, no `var`
-* Prefer template strings over strings concatenation
-* Prefer spread to fill arrays and objects
-* Prefer arrow function for callbacks
-* No console, no eval, no functions in loops
-* Type-safe equality operators (===, !==)
-* A couple of other spacing/styling/readability rules
+## Rules
 
 All the rules are defined in [index.js](https://github.com/team-rawbot/eslint-config-rawbot/blob/master/index.js).
 
@@ -71,7 +56,9 @@ export default class MyClass {
   }
 
   createPeopleCards() {
-    this.peopleCards = this.people.map(people => `<div class="people">${people.name}</div>`);
+    this.peopleCards = this.people.map(
+      (people) => `<div class="people">${people.name}</div>`
+    );
   }
 
   open(e) {
@@ -106,5 +93,4 @@ export default class MyClass {
     }
   }
 }
-
 ```

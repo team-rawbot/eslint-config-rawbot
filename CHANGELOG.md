@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.0
+
+- Remove all styling rules in favor of Prettier
+
 ## 1.1.2
 
 - Enable support for EsLint 7
