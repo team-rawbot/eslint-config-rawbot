@@ -5,6 +5,8 @@
 
 Rawbot EsLint common configuration (i.e. JavaScript styleguide).
 
+⚠️ **This package has been deprecated in favor of [@liip-lausanne/eslint-config](https://github.com/liip-lausanne/eslint-config)**
+
 ## Usage
 
 Install the package first.
